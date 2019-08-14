@@ -2,6 +2,7 @@ package com.minitwit.service.impl;
 
 import java.util.List;
 
+import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,6 +14,7 @@ import com.minitwit.model.User;
 import com.minitwit.util.PasswordUtil;
 
 @Service
+@Setter
 public class MiniTwitService {
 	
 	@Autowired
@@ -72,11 +74,4 @@ public class MiniTwitService {
 		userDao.registerUser(user);
 	}
 
-	public void setUserDao(UserDao userDao) {
-		this.userDao = userDao;
-	}
-
-	public void setMessageDao(MessageDao messageDao) {
-		this.messageDao = messageDao;
-	}
 }

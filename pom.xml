@@ -15,6 +15,7 @@
 		<jbcrypt.version>0.4.1</jbcrypt.version>
 		<commons.beanutils.version>1.9.3</commons.beanutils.version>
 		<slf4j.version>1.7.22</slf4j.version>
+	  	<lombok.version>1.18.8</lombok.version>
 	</properties>
   
   <dependencies>
@@ -94,6 +95,13 @@
 			<artifactId>slf4j-simple</artifactId>
 			<version>${slf4j.version}</version>
 		</dependency>
+
+	  <dependency>
+		  <groupId>org.projectlombok</groupId>
+		  <artifactId>lombok</artifactId>
+		  <version>${lombok.version}</version>
+	  </dependency>
+
   </dependencies>
   
   <build>
