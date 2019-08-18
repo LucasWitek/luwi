@@ -1,4 +1,4 @@
-package com.minitwit.config;
+package com.springboot.minitwit.config;
 
 import javax.sql.DataSource;
 

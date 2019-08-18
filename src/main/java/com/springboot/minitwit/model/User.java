@@ -1,10 +1,10 @@
-package com.minitwit.model;
+package com.springboot.minitwit.model;
 
 import java.util.regex.Pattern;
 
 import lombok.Getter;
 import lombok.Setter;
-import spark.utils.StringUtils;
+import org.springframework.util.StringUtils;
 
 @Getter
 @Setter

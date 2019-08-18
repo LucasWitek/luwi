@@ -1,4 +1,4 @@
-package com.minitwit.util;
+package com.springboot.minitwit.util;
 
 import org.mindrot.jbcrypt.BCrypt;
 

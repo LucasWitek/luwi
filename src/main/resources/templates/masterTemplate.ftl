@@ -45,7 +45,7 @@
     </div>
 
     <footer class="footer">
-        <p>MiniTwit &mdash; A Spark Application</p>
+        <p>MiniTwit 2 &mdash; A Spring Boot Application</p>
     </footer>
 </div><!-- /container -->
 </body>

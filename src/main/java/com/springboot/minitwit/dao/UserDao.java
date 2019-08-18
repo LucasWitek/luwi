@@ -1,6 +1,6 @@
-package com.minitwit.dao;
+package com.springboot.minitwit.dao;
 
-import com.minitwit.model.User;
+import com.springboot.minitwit.model.User;
 
 public interface UserDao {
 

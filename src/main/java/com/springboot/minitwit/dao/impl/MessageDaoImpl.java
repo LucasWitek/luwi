@@ -1,4 +1,4 @@
-package com.minitwit.dao.impl;
+package com.springboot.minitwit.dao.impl;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,15 +6,15 @@ import java.util.Map;
 
 import javax.sql.DataSource;
 
+import com.springboot.minitwit.dao.MessageDao;
+import com.springboot.minitwit.model.Message;
+import com.springboot.minitwit.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.minitwit.dao.MessageDao;
-import com.minitwit.model.Message;
-import com.minitwit.model.User;
-import com.minitwit.util.GravatarUtil;
+import com.springboot.minitwit.util.GravatarUtil;
 
 @Repository
 public class MessageDaoImpl implements MessageDao {

@@ -1,4 +1,4 @@
-package com.minitwit.model;
+package com.springboot.minitwit.model;
 
 import lombok.AccessLevel;
 import lombok.Getter;

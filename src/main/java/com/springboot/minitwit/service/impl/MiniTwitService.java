@@ -1,25 +1,24 @@
-package com.minitwit.service.impl;
+package com.springboot.minitwit.service.impl;
 
 import java.util.List;
 
+import com.springboot.minitwit.dao.MessageDao;
+import com.springboot.minitwit.dao.UserDao;
+import com.springboot.minitwit.model.LoginResult;
+import com.springboot.minitwit.model.Message;
+import com.springboot.minitwit.model.User;
+import com.springboot.minitwit.util.PasswordUtil;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.minitwit.dao.MessageDao;
-import com.minitwit.dao.UserDao;
-import com.minitwit.model.LoginResult;
-import com.minitwit.model.Message;
-import com.minitwit.model.User;
-import com.minitwit.util.PasswordUtil;
-
 @Service
 @Setter
 public class MiniTwitService {
-	
+
 	@Autowired
 	private UserDao userDao;
-	
+
 	@Autowired
 	private MessageDao messageDao;
 	

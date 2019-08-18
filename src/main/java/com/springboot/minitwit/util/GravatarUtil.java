@@ -1,4 +1,4 @@
-package com.minitwit.util;
+package com.springboot.minitwit.util;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

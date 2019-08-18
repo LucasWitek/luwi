@@ -1,9 +1,10 @@
-package com.minitwit.dao;
+package com.springboot.minitwit.dao;
+
+import com.springboot.minitwit.model.Message;
+import com.springboot.minitwit.model.User;
 
 import java.util.List;
 
-import com.minitwit.model.Message;
-import com.minitwit.model.User;
 
 public interface MessageDao {
 	List<Message> getUserTimelineMessages(User user);
